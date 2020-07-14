@@ -1,0 +1,7 @@
+{
+  "name": "usabilla-test",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
