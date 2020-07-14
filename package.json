@@ -26,9 +26,14 @@
     "cordova-android": "^8.1.0",
     "cordova-android-support-gradle-release": "^3.0.1",
     "cordova-ios": "^5.1.1",
+    "cordova-plugin-add-swift-support": "^2.0.2",
+    "cordova-plugin-android-fragmentactivity": "^2.0.0",
+    "cordova-plugin-androidx": "^2.0.0",
+    "cordova-plugin-cocoapod-support": "^1.6.2",
     "cordova-plugin-ionic-webview": "^5.0.0",
     "rxjs": "~6.5.1",
     "tslib": "^1.10.0",
+    "usabilla-cordova": "git+https://github.com/usabilla/usabilla-u4a-cordova.git",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
@@ -70,7 +75,8 @@
       "cordova-android-support-gradle-release": {
         "ANDROID_SUPPORT_VERSION": "27.+"
       },
-      "cordova-plugin-ionic-webview": {}
+      "cordova-plugin-ionic-webview": {},
+      "usabilla-cordova": {}
     },
     "platforms": [
       "ios",
